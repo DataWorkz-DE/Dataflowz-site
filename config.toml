@@ -84,7 +84,7 @@ contact_form_action = "https://formspree.io/xleodbng"
 description = "Dataflowz is the specialist in data science & data engineering"
 email = "info@dataflowz.de"
 google_analitycs_id = "G-3PG6NYRP8M"
-logo = "images/dataflowz_exact_colors.png"
+logo = "images/logo_text_small.png"
 mobile = "+49 (0) 176 164 007 57"
 top_header = false
 [params.map]
