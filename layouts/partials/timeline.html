@@ -1,0 +1,44 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+<section class="timeline">
+  <div class="container">
+    {{ $.Scratch.Set "counter" 0 }}
+    {{ range (where site.RegularPages "Type" "timeline") }}
+      {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+      {{ $i := $.Scratch.Get "counter" }}
+      
+      {{ $fade := ""}}
+      {{ $timelinecard := ""}}
+
+      {{if not (modBool $i 2)}}
+        {{ $fade = "js--fadeInLeft"}}
+      {{else }}
+        {{ $fade = "js--fadeInRight"}}
+      {{end }}
+      
+      {{ if (isset .Params "image") | and  (not (eq .Params.image "")) }}
+        {{ $timelinecard = "timeline-card"}}
+      {{ end }}
+
+      <!-- {{ .Render "timeline" }} -->
+      <div class="timeline-item">
+        <div class="timeline-img"></div>
+        <div class="timeline-content {{ $timelinecard }} {{ $fade }}">
+        {{ if not (eq $timelinecard "") }}
+          <div class="timeline-img-header">
+            <img src="{{ .Params.image | relURL }}"/>
+            <h2>{{ .Title }}</h2>
+          </div>
+        {{ else }}
+          <h2>{{ .Title }}</h2>
+        {{ end }}
+            <div class="date">
+              {{ .Params.date.Day }} {{ index $data.months (printf "%d" .Params.date.Month) }} {{ .Params.date.Year }}
+            </div>
+            {{ .Content }}
+            <!-- <a class="bnt-more" href="javascript:void(0)">More</a> -->
+          </div>
+        </div>
+    {{ end }}
+  </div>
+</section>

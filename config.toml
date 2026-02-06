@@ -1,0 +1,151 @@
+baseURL = "/"
+buildFuture = true
+disableLanguages = [""]
+[pagination]
+    pagerSize = 6
+summaryLength = "10"
+theme = "educenter"
+title = "Dataflowz.de | Specialist in data science & data engineering"
+defaultContentLanguage = 'de'
+[languages]
+[languages.en]
+contentDir = "content/english"
+copyright = "Copyright &copy; 2026 by [kokkelaar](https://kokkelaar.nl)"
+home = "Home"
+languageCode = "en-En"
+languageName = "En"
+weight = 2
+[languages.en.menu]
+[[languages.en.menu.company]]
+URL = "contact"
+name = "Contact"
+weight = 3
+[[languages.en.menu.company]]
+URL = "impressum"
+name = "Impressum"
+weight = 8
+[[languages.en.menu.company]]
+URL = "privacy"
+name = "Privacy"
+weight = 6
+[languages.de]
+contentDir = "content/deutsch"
+copyright = "Copyright &copy; 2022 by [kokkelaar](https://kokkelaar.nl)"
+home = "Home"
+languageCode = "de-DE"
+languageName = "De"
+weight = 1
+[languages.de.menu]
+[[languages.de.menu.company]]
+URL = "contact"
+name = "Kontakt"
+weight = 5
+[[languages.de.menu.company]]
+URL = "impressum"
+name = "Impressum"
+weight = 7
+[[languages.de.menu.company]]
+URL = "privacy"
+name = "Datenschutzerklärung"
+weight = 6
+[[module.mounts]]
+lang = "de"
+source = "content/deutsch"
+target = "content"
+[[module.mounts]]
+lang = "en"
+source = "content/english"
+target = "content"
+[[module.mounts]]
+source = "static"
+target = "static"
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+[[module.mounts]]
+source = "data"
+target = "data"
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "static"
+target = "assets/static"
+[[module.mounts]]
+source = "i18n"
+target = "i18n"
+[[module.mounts]]
+source = "archetypes"
+target = "archetypes"
+[params]
+address = ""
+author = "Dataflowz GmbH."
+contact_form_action = "https://formspree.io/xleodbng"
+description = "Dataflowz is the specialist in data science & data engineering"
+email = "info@dataflowz.de"
+google_analitycs_id = "G-3PG6NYRP8M"
+logo = "images/dataflowz_exact_colors.png"
+mobile = "+49 (0) 176 164 007 57"
+top_header = false
+[params.map]
+enable = false
+map_latitude = "52.105107"
+map_longitude = "5.079772"
+map_marker = "images/marker.png"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/owl.carousel/assets/owl.carousel.min.css"
+[[params.plugins.css]]
+link = "plugins/owl.carousel/assets/owl.theme.default.min.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+[[params.plugins.js]]
+link = "plugins/owl.carousel/owl.carousel.min.js"
+[[params.plugins.js]]
+link = "plugins/scrollreveal/scrollreveal.min.js"
+[params.preloader]
+enable = false
+preloader = "images/preloader.gif"
+[params.subscription]
+enable = false
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/DataWorkz-DE"
+title = "github"
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/dataworkz-gmbh/"
+title = "linkedin"
+# Nothing is used anyway, just to be verbose
+[privacy]
+[privacy.disqus]
+disable = true
+[privacy.googleAnalytics]
+disable = true
+[privacy.instagram]
+disable = true
+[privacy.x]
+disable = true
+[privacy.vimeo]
+disable = true
+[privacy.youtube]
+disable = true

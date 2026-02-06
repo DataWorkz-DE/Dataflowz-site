@@ -1,0 +1,105 @@
+---
+slider:
+  enable: false
+  bg_image: images/banner/banner-1.jpg
+  slider_item:
+    - title: <span class="text-primary">We Make Data Work</span>
+      content: We specialize in unleashing the power of data, leveraging Infra-as-Code and cloud technologies, to drive actionable insights and enable organizations to make informed decisions with confidence.
+      animation_in: ""
+      animation_out: ""
+      button:
+        enable: true
+        label: Contact us
+        link: contact
+banner_feature:
+  enable: false
+  image: images/banner/banner-feature.png
+  feature_item:
+    - name: Quick wins
+      icon: ti-book
+      content:
+        We have developed several quick wins for technical problems within the data world.
+        Do you recognize these challenges?  We can help you solve this challenge with a concrete
+        result within roughly 2 weeks.
+      button:
+        enable: true
+        label: more info
+        link: "/solutions#data-quickwin"
+    - name: Data workshops and training
+      icon: ti-blackboard
+      content:
+        From the first steps in Python to creating your first deep learning projects.
+        With our course, we take your employees into the new and exciting world of Data Science
+        and Machine Learning.
+      button:
+        enable: true
+        label: more info
+        link: "/solutions#data-workshop"
+    - name: Data consultancy
+      icon: ti-agenda
+      content: Whether you need know-how or short-term support to scale up your team, our engineers are ready to help. And with over 70 engineers within the ecosystem, there is always someone with the answer to your question.
+      button:
+        enable: true
+        label: more info
+        link: "/solutions#data-consulting"
+about:
+  enable: true
+  title: About Dataflowz
+  image: images/logo.png
+  content: AI isn't your problem. Your data is. AI, analytics, automation. They all fail when your data is inaccurate, unreliable, or unavailable when you need it. We engineer data infrastructure that's accurate, reliable, and scales when you need it. We make data flow.
+  button:
+    enable: false
+    label: Want to see more of Dataworkz?
+    link: about
+course:
+  enable: false
+  title: Our workshops
+cta:
+  enable: false
+  subtitle: Want to know with which clients we work?
+  title: Our clients and partners
+  button:
+    enable: false
+    label: See more
+    link: customers
+tech:
+  enable: false
+  subtitle: ""
+  title: Our choices of technology
+  button:
+    enable: false
+    label: See more
+    link: customers
+success_story:
+  enable: false
+  bg_image: images/backgrounds/success-story.jpg
+  title: Want to work at Dataworkz?
+  content:
+    We are looking for passionate Data enthusiasts (Engineering and Science), who can make the
+    make the difference at our customers. Professionals who enjoy seizing opportunities in a young
+    company and who like to work together with colleagues to create data solutions.
+    Professionals who have strong communication skills, who want to work in agile projects projects
+    with leading customers, who want to be part of a fun team of experts, who  enjoy sharing knowledge
+    and want to be rewarded for their value.
+  video_link: https://www.youtube.com/watch?v=IdV4n4hgIRY
+  button:
+    enable: false
+    label: Want to know more?
+    link: career
+event:
+  enable: false
+  title: Upcoming events
+funfacts:
+  enable: false
+  funfact_item:
+    - name: TEACHERS
+      count: "60"
+    - name: COURSES
+      count: "50"
+    - name: STUDENTS
+      count: "1000"
+    - name: SATISFIED CLIENT
+      count: "1400"
+blog:
+  enable: false
+  title: Latest blogs

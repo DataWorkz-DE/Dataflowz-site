@@ -1,0 +1,132 @@
+- id: read_more
+  translation: Mehr erfahren
+
+- id: contact_form
+  translation: Kontaktformular
+
+- id: send
+  translation: Nachricht senden
+
+- id: contact_info
+  translation: Kontakt Info
+
+- id: subscribe_newsletter
+  translation: Newsletter anmelden
+
+- id: subscribe
+  translation: Anmelden
+
+- id: contact_us
+  translation: Kontakt aufnehmen
+
+- id: latest_article
+  translation: Letzte Artikel
+
+- id: categories
+  translation: Kategorien
+
+- id: tags
+  translation: Tags
+
+- id: see_all
+  translation: Alle Items
+
+- id: apply_now
+  translation: Jetzt anmelden
+
+- id: posted_by
+  translation: Gepost von
+
+- id: blogs_by
+  translation: Blogs von
+
+- id: date
+  translation: Datum
+
+- id: time
+  translation: Zeit
+
+- id: category
+  translation: Kategorie
+
+- id: related_course
+  translation: Verwandter Kurs
+
+- id: duration
+  translation: Dauer
+
+- id: weekly
+  translation: Wöchentlich
+
+- id: fee
+  translation: Kosten
+
+- id: teacher
+  translation: Dozent
+
+- id: location
+  translation: Ort
+
+- id: entry_fee
+  translation: Kosten
+
+- id: event_speaker
+  translation: Event Sprechers
+
+- id: more_event
+  translation: Andere Events
+
+- id: events_none
+  translation: Es sind noch keine Veranstaltungen geplant, behalte die Seite im Auge!
+
+- id: join
+  translation: Beitreten
+  
+- id: enter_email
+  translation: E-Mail eingeben
+
+- id: company
+  translation: Unternehmen
+
+- id: links
+  translation: Links
+
+- id: courses
+  translation: Workshops
+
+- id: new_notice
+  translation: Neue Mitteilung
+
+- id: call
+  translation: Anrufen
+
+- id: email
+  translation: E-Mail
+
+- id: all
+  translation: Alle
+
+- id: interest
+  translation: LISTE DER AKTIVITÄTEN
+
+- id: our_teachers
+  translation: Unsere Dozenten
+
+- id: download
+  translation: Download
+
+- id: contact_name
+  translation: Dein Name
+
+- id: contact_name
+  translation: Dein Name
+- id: contact_email
+  translation: Deine E-Mail
+- id: contact_subject
+  translation: Dein Betreff
+- id: contact_message
+  translation: Deine Nachricht
+- id: no_workshop
+  translation: hat noch keinen Workshop gegeben...
+- id: no_blog
+  translation: hat noch keinen Blogartikel geschrieben...

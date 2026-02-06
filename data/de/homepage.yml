@@ -1,0 +1,101 @@
+---
+slider:
+  enable: false
+  bg_image: images/banner/banner-1.jpg
+  slider_item:
+  - title: <span class="text-primary">We Make Data Work</span>
+    content: Wir sind darauf spezialisiert, das volle Potenzial von Daten zu nutzen, indem wir Infrastruktur als Code und Cloud-Technologien einsetzen. Dadurch schaffen wir Praxisnahe Erkenntnisse und ermöglichen es Unternehmen, fundierte Entscheidungen mit Zuversicht zu treffen.
+    animation_in: ''
+    animation_out: ''
+    button:
+      enable: true
+      label: Nimm Kontakt mit uns auf
+      link: contact
+banner_feature:
+  enable: false
+  image: images/banner/banner-feature.png
+  feature_item:
+  - name: Quick Wins
+    icon: ti-book
+    content: Wir haben einige Quick Wins für technische Probleme innerhalb der Datenwelt entwickelt.
+      Erkennst du diese Herausforderungen? Wir können dir helfen, diese Herausforderung mit einem 
+      konkreten Ergebnis innerhalb von etwa 2 Wochen zu lösen. 
+    button:
+      enable: true
+      label: Mehr erfahren
+      link: "/solutions#data-quickwin"
+  - name: Data Workshops und Trainings
+    icon: ti-blackboard
+    content: Von den ersten Schritten in Python bis zur Erstellung deiner ersten Deep Learning 
+      Projekte. Mit unserem Kurs nehmen wir deine Mitarbeiterinnen mit in die neue und spannende Welt
+      von Data Science und Machine Learning.
+    button:
+      enable: true
+      label: Mehr erfahren
+      link: "/solutions#data-workshop"
+  - name: Data Consultancy
+    icon: ti-agenda
+    content: Egal, ob du Know-how oder kurzfristige Unterstützung bei der Erweiterung deines Teams brauchst, unsere Ingenieure sind bereit zu helfen. Und mit über 70 Ingenieuren innerhalb des Ökosystems gibt es immer jemanden, der eine Antwort auf deine Frage hat.
+    button:
+      enable: true
+      label: Mehr erfahren
+      link: "/solutions#data-consulting"
+about:
+  enable: true
+  title: About Dataflowz
+  image: images/logo.png
+  content: AI isn't your problem. Your data is. AI, analytics, automation. They all fail when your data is inaccurate, unreliable, or unavailable when you need it. We engineer data infrastructure that's accurate, reliable, and scales when you need it. We make data flow.
+  button:
+    enable: false
+    label: Mehr über Dataworkz erfahren?
+    link: about
+course:
+  enable: false
+  title: Unsere Workshops
+cta:
+  enable: false
+  subtitle: Mehr über unsere Kunden erfahren?
+  title: Kunden und Partners
+  button:
+    enable: true
+    label: Mehr erfahren
+    link: customers
+tech:
+  enable: false
+  subtitle: ''
+  title: Unsere Technologieauswahl
+  button:
+    enable: false
+    label: Mehr erfahren
+    link: customers
+success_story:
+  enable: false
+  bg_image: images/backgrounds/success-story.jpg
+  title: Hast du Bock bei uns zu arbeiten?
+  content: Wir suchen leidenschaftliche Datenenthusiastinnen (Engineering und Science), die bei  
+    unseren Kunden den Unterschied ausmachen. Professionals, die Spaß daran haben, 
+    Chancen in einem jungen Unternehmen zu ergreifen und die gerne mit Kollegen 
+    zusammenarbeiten, um Datenlösungen zu schaffen. Spezialisten, die Teil eines Teams von Expertinnen sein wollen 
+    und Spaß daran haben, Wissen zu teilen und die für ihren Wert belohnt werden wollen.
+  video_link: https://www.youtube.com/watch?v=IdV4n4hgIRY
+  button:
+    enable: true
+    label: Mehr erfahren
+    link: career
+event:
+  enable: false
+  title: Kommende Veranstaltungen
+funfacts:
+  enable: false
+  funfact_item:
+  - name: TEACHERS
+    count: "60"
+  - name: COURSES
+    count: "50"
+  - name: STUDENTS
+    count: "1000"
+  - name: SATISFIED CLIENT
+    count: "1400"
+blog:
+  enable: false
+  title: Neueste Blogeinträge
